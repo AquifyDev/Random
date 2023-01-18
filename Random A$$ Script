@@ -44,7 +44,7 @@ do
     if gameScript ~= nil then
         if isfile('ui_octohook.lua') then
             loadstring(readfile('ui_octohook.lua'))();
-            library.title = 'OCTO TAP BETA BY PROF - '..gameName;
+            library.title = 'AQUIFY BETA - '..gameName;
             library.gamename = gameName;
             library:Init();
             repeat task.wait() until library.hasInit == true
